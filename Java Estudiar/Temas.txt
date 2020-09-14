@@ -1,0 +1,12 @@
+
+Wrapper class:
+http://www.buscaminegocio.com/cursos-de-java/wrappers-java.html
+
+TreeSet
+https://java.dokry.com/14088/es-mejor-usar-un-treeset-o-arraylist-cuando-se-usa-un-comparador-personalizado.html
+
+
+ArrayList vs TreeSet
+Si solo ordena una vez, entonces ArrayList es un ganador obvio. El TreeSet es mejor si agrega o elimina elementos a menudo, ya que ordenar una lista una y otra vez sería lento.
+
+Tenga en cuenta también que todas las estructuras de árbol necesitan más memoria y acceso a memoria, lo que las hace más lentas.
