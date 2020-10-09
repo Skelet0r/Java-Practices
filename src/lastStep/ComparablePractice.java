@@ -1,5 +1,7 @@
 package lastStep;
 
+import java.util.Arrays;
+
 public class ComparablePractice {
 
     // Def
@@ -8,7 +10,14 @@ public class ComparablePractice {
     // Comparator interface sort collection using two objects provided to it,
     // while comparable interface compares" this" refers to the one objects provided to it.
 
+    static void OrderList(String names[]) {
+        Arrays.sort(names);
+        for(int i  = 0; i < names.length; i++){
+            System.out.println("Name: " + names[i]);
+        }
 
+        //String[] arrayNames = {"Victor", "Edgar", "Javis", "Emma", "Uncle", "Luis"};
+    }
 
     // Notes:
     // compareTo() debe ser reciproco. Se debe cumplir: a.compareTo(b) == - b.compareTo(a) .

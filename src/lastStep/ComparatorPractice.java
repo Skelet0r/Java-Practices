@@ -1,6 +1,18 @@
 package lastStep;
 
-public class ComparatorPractice {
+import java.util.Comparator;
+
+//public class ComparatorPractice implements Comparator {
+public class ComparatorPractice implements Comparator <Person>{
+
+    @Override
+    public int compare(Person person1, Person person2)
+    {
+        //Person person1 = (Person) obj1;
+        //Person person2 = (Person) obj2;
+
+        return person1.getName().compareTo(person2.getName());
+    }
 
     // Def
     // Comparable and comparator both are an interface that can be used to sort the elements of the collection.
